@@ -32,3 +32,27 @@ body {
   font-family: sans-serif;
   min-height: 100%;
 }
+
+.blog-post__figure{
+  float:right;
+  width: 33%;
+  background-color: lightgray;
+  overflow: auto;
+  /* tried playing with margins and borders and padding to get rid of the horizontal strip on the right of the first and third image.The issue only shows up when the window is on full-screen / large enough. */
+}
+
+.blog-post__figure--center{
+  margin: auto;
+  float: none;
+  width:75%;
+}
+
+.blog-post__figure--alt{
+  float: left;
+}
+
+.blog-post__figcaption{
+  padding: 1rem;
+  /* tried setting the background color here instead but had a similar problem with it extending a bit too much to the right */
+}
+
